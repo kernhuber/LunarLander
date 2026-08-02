@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LunarLander.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LunarLanderiOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>83AD3E0C2F5D577400FE7008</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83AD3E212F5D577500FE7008</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83AD3E2B2F5D577500FE7008</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83AF06112F76CFFA00113F59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83AF061D2F76CFFB00113F59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83AF06272F76CFFB00113F59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

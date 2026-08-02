@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		83AD3E232F5D577500FE7008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AD3E052F5D577400FE7008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AD3E0C2F5D577400FE7008;
+			remoteInfo = LunarLander;
+		};
+		83AD3E2D2F5D577500FE7008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AD3E052F5D577400FE7008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AD3E0C2F5D577400FE7008;
+			remoteInfo = LunarLander;
+		};
+		83AF061F2F76CFFB00113F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AD3E052F5D577400FE7008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AF06112F76CFFA00113F59;
+			remoteInfo = LunarLanderiOS;
+		};
+		83AF06292F76CFFB00113F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AD3E052F5D577400FE7008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AF06112F76CFFA00113F59;
+			remoteInfo = LunarLanderiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83AD3E0D2F5D577400FE7008 /* LunarLander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarLander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AD3E222F5D577500FE7008 /* LunarLanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AD3E2C2F5D577500FE7008 /* LunarLanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF06122F76CFFA00113F59 /* LunarLanderiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarLanderiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF061E2F76CFFB00113F59 /* LunarLanderiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF06282F76CFFB00113F59 /* LunarLanderiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarLanderiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		83AF063A2F76D1B800113F59 /* Exceptions for "LunarLander" folder in "LunarLanderiOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets/blurp.mp3,
+				Assets/crash.mp3,
+				Assets/Fuel.png,
+				Assets/Leichte_Objekte_Aus_Auswahl.png,
+				Assets/Leichte_Objekte_Buch.png,
+				Assets/Leichte_Objekte_Huhn.png,
+				Assets/Leichte_Objekte_Hut.png,
+				Assets/Leichte_Objekte_Jacke.png,
+				Assets/Leichte_Objekte_Kleeblatt.png,
+				"Assets/Leichte_Objekte_Klopömpel.png",
+				Assets/Leichte_Objekte_Luftpumpe.png,
+				Assets/Leichte_Objekte_Regenschirm.png,
+				Assets/Leichte_Objekte_Schuh.png,
+				Assets/Logo.png,
+				"Assets/Lunar Descent Loop.mp3",
+				Assets/lunar_lander_icon_1024.png,
+				Assets/navigation_rocket_engine.wav,
+				Assets/Schwere_Objekte_auto.png,
+				Assets/Schwere_Objekte_bombe.png,
+				Assets/Schwere_Objekte_dampflok.png,
+				Assets/Schwere_Objekte_mahlstrom.png,
+				Assets/Schwere_Objekte_meteor_01.png,
+				Assets/Schwere_Objekte_meteor_02.png,
+				Assets/Schwere_Objekte_meteor_03.png,
+				Assets/Schwere_Objekte_meteor_04.png,
+				Assets/Schwere_Objekte_meteor_05.png,
+				Assets/Shield.mp3,
+				Assets/succes.mp3,
+				Assets/wind_01_low.mp3,
+				Assets/wind_02_gusyt.mp3,
+				Assets/wind_03_high.mp3,
+				GameConfig.swift,
+				HighscoreManager.swift,
+				Renderer.swift,
+				Shaders.metal,
+			);
+			target = 83AF06112F76CFFA00113F59 /* LunarLanderiOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		83AD3E0F2F5D577400FE7008 /* LunarLander */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				83AF063A2F76D1B800113F59 /* Exceptions for "LunarLander" folder in "LunarLanderiOS" target */,
+			);
+			path = LunarLander;
+			sourceTree = "<group>";
+		};
+		83AD3E252F5D577500FE7008 /* LunarLanderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunarLanderTests;
+			sourceTree = "<group>";
+		};
+		83AD3E2F2F5D577500FE7008 /* LunarLanderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunarLanderUITests;
+			sourceTree = "<group>";
+		};
+		83AF06132F76CFFA00113F59 /* LunarLanderiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunarLanderiOS;
+			sourceTree = "<group>";
+		};
+		83AF06212F76CFFB00113F59 /* LunarLanderiOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunarLanderiOSTests;
+			sourceTree = "<group>";
+		};
+		83AF062B2F76CFFB00113F59 /* LunarLanderiOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LunarLanderiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83AD3E0A2F5D577400FE7008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E1F2F5D577500FE7008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E292F5D577500FE7008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF060F2F76CFFA00113F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF061B2F76CFFB00113F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF06252F76CFFB00113F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83AD3E042F5D577400FE7008 = {
+			isa = PBXGroup;
+			children = (
+				83AD3E0F2F5D577400FE7008 /* LunarLander */,
+				83AD3E252F5D577500FE7008 /* LunarLanderTests */,
+				83AD3E2F2F5D577500FE7008 /* LunarLanderUITests */,
+				83AF06132F76CFFA00113F59 /* LunarLanderiOS */,
+				83AF06212F76CFFB00113F59 /* LunarLanderiOSTests */,
+				83AF062B2F76CFFB00113F59 /* LunarLanderiOSUITests */,
+				83AD3E0E2F5D577400FE7008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83AD3E0E2F5D577400FE7008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83AD3E0D2F5D577400FE7008 /* LunarLander.app */,
+				83AD3E222F5D577500FE7008 /* LunarLanderTests.xctest */,
+				83AD3E2C2F5D577500FE7008 /* LunarLanderUITests.xctest */,
+				83AF06122F76CFFA00113F59 /* LunarLanderiOS.app */,
+				83AF061E2F76CFFB00113F59 /* LunarLanderiOSTests.xctest */,
+				83AF06282F76CFFB00113F59 /* LunarLanderiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83AD3E0C2F5D577400FE7008 /* LunarLander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AD3E362F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLander" */;
+			buildPhases = (
+				83AD3E092F5D577400FE7008 /* Sources */,
+				83AD3E0A2F5D577400FE7008 /* Frameworks */,
+				83AD3E0B2F5D577400FE7008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				83AD3E0F2F5D577400FE7008 /* LunarLander */,
+			);
+			name = LunarLander;
+			packageProductDependencies = (
+			);
+			productName = LunarLander;
+			productReference = 83AD3E0D2F5D577400FE7008 /* LunarLander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83AD3E212F5D577500FE7008 /* LunarLanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AD3E392F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLanderTests" */;
+			buildPhases = (
+				83AD3E1E2F5D577500FE7008 /* Sources */,
+				83AD3E1F2F5D577500FE7008 /* Frameworks */,
+				83AD3E202F5D577500FE7008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AD3E242F5D577500FE7008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83AD3E252F5D577500FE7008 /* LunarLanderTests */,
+			);
+			name = LunarLanderTests;
+			packageProductDependencies = (
+			);
+			productName = LunarLanderTests;
+			productReference = 83AD3E222F5D577500FE7008 /* LunarLanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83AD3E2B2F5D577500FE7008 /* LunarLanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AD3E3C2F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLanderUITests" */;
+			buildPhases = (
+				83AD3E282F5D577500FE7008 /* Sources */,
+				83AD3E292F5D577500FE7008 /* Frameworks */,
+				83AD3E2A2F5D577500FE7008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AD3E2E2F5D577500FE7008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83AD3E2F2F5D577500FE7008 /* LunarLanderUITests */,
+			);
+			name = LunarLanderUITests;
+			packageProductDependencies = (
+			);
+			productName = LunarLanderUITests;
+			productReference = 83AD3E2C2F5D577500FE7008 /* LunarLanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		83AF06112F76CFFA00113F59 /* LunarLanderiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AF06302F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOS" */;
+			buildPhases = (
+				83AF060E2F76CFFA00113F59 /* Sources */,
+				83AF060F2F76CFFA00113F59 /* Frameworks */,
+				83AF06102F76CFFA00113F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				83AF06132F76CFFA00113F59 /* LunarLanderiOS */,
+			);
+			name = LunarLanderiOS;
+			packageProductDependencies = (
+			);
+			productName = LunarLanderiOS;
+			productReference = 83AF06122F76CFFA00113F59 /* LunarLanderiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83AF061D2F76CFFB00113F59 /* LunarLanderiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AF06332F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOSTests" */;
+			buildPhases = (
+				83AF061A2F76CFFB00113F59 /* Sources */,
+				83AF061B2F76CFFB00113F59 /* Frameworks */,
+				83AF061C2F76CFFB00113F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AF06202F76CFFB00113F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83AF06212F76CFFB00113F59 /* LunarLanderiOSTests */,
+			);
+			name = LunarLanderiOSTests;
+			packageProductDependencies = (
+			);
+			productName = LunarLanderiOSTests;
+			productReference = 83AF061E2F76CFFB00113F59 /* LunarLanderiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83AF06272F76CFFB00113F59 /* LunarLanderiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AF06362F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOSUITests" */;
+			buildPhases = (
+				83AF06242F76CFFB00113F59 /* Sources */,
+				83AF06252F76CFFB00113F59 /* Frameworks */,
+				83AF06262F76CFFB00113F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AF062A2F76CFFB00113F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83AF062B2F76CFFB00113F59 /* LunarLanderiOSUITests */,
+			);
+			name = LunarLanderiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = LunarLanderiOSUITests;
+			productReference = 83AF06282F76CFFB00113F59 /* LunarLanderiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83AD3E052F5D577400FE7008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					83AD3E0C2F5D577400FE7008 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					83AD3E212F5D577500FE7008 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 83AD3E0C2F5D577400FE7008;
+					};
+					83AD3E2B2F5D577500FE7008 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 83AD3E0C2F5D577400FE7008;
+					};
+					83AF06112F76CFFA00113F59 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					83AF061D2F76CFFB00113F59 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 83AF06112F76CFFA00113F59;
+					};
+					83AF06272F76CFFB00113F59 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 83AF06112F76CFFA00113F59;
+					};
+				};
+			};
+			buildConfigurationList = 83AD3E082F5D577400FE7008 /* Build configuration list for PBXProject "LunarLander" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83AD3E042F5D577400FE7008;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83AD3E0E2F5D577400FE7008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83AD3E0C2F5D577400FE7008 /* LunarLander */,
+				83AD3E212F5D577500FE7008 /* LunarLanderTests */,
+				83AD3E2B2F5D577500FE7008 /* LunarLanderUITests */,
+				83AF06112F76CFFA00113F59 /* LunarLanderiOS */,
+				83AF061D2F76CFFB00113F59 /* LunarLanderiOSTests */,
+				83AF06272F76CFFB00113F59 /* LunarLanderiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83AD3E0B2F5D577400FE7008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E202F5D577500FE7008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E2A2F5D577500FE7008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF06102F76CFFA00113F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF061C2F76CFFB00113F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF06262F76CFFB00113F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83AD3E092F5D577400FE7008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E1E2F5D577500FE7008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AD3E282F5D577500FE7008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF060E2F76CFFA00113F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF061A2F76CFFB00113F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF06242F76CFFB00113F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83AD3E242F5D577500FE7008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AD3E0C2F5D577400FE7008 /* LunarLander */;
+			targetProxy = 83AD3E232F5D577500FE7008 /* PBXContainerItemProxy */;
+		};
+		83AD3E2E2F5D577500FE7008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AD3E0C2F5D577400FE7008 /* LunarLander */;
+			targetProxy = 83AD3E2D2F5D577500FE7008 /* PBXContainerItemProxy */;
+		};
+		83AF06202F76CFFB00113F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AF06112F76CFFA00113F59 /* LunarLanderiOS */;
+			targetProxy = 83AF061F2F76CFFB00113F59 /* PBXContainerItemProxy */;
+		};
+		83AF062A2F76CFFB00113F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AF06112F76CFFA00113F59 /* LunarLanderiOS */;
+			targetProxy = 83AF06292F76CFFB00113F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83AD3E342F5D577500FE7008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83AD3E352F5D577500FE7008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		83AD3E372F5D577500FE7008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Lander Vibes";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/PIL/.dylibs",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/numpy/_core/lib",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/numpy/random/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83AD3E382F5D577500FE7008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Lander Vibes";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/PIL/.dylibs",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/numpy/_core/lib",
+					"$(PROJECT_DIR)/LunarLander/Assets/psd/venv/lib/python3.14/site-packages/numpy/random/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83AD3E3A2F5D577500FE7008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLander.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunarLander";
+			};
+			name = Debug;
+		};
+		83AD3E3B2F5D577500FE7008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLander.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunarLander";
+			};
+			name = Release;
+		};
+		83AD3E3D2F5D577500FE7008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LunarLander;
+			};
+			name = Debug;
+		};
+		83AD3E3E2F5D577500FE7008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LunarLander;
+			};
+			name = Release;
+		};
+		83AF06312F76CFFB00113F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Lander";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = LunarLander/ShaderTypes.h;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83AF06322F76CFFB00113F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Lander";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = LunarLander/ShaderTypes.h;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83AF06342F76CFFB00113F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLanderiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunarLanderiOS";
+			};
+			name = Debug;
+		};
+		83AF06352F76CFFB00113F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarLanderiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunarLanderiOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83AF06372F76CFFB00113F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunarLanderiOS;
+			};
+			name = Debug;
+		};
+		83AF06382F76CFFB00113F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZKRAY5KK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.kernhuber.LunarLanderiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunarLanderiOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83AD3E082F5D577400FE7008 /* Build configuration list for PBXProject "LunarLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AD3E342F5D577500FE7008 /* Debug */,
+				83AD3E352F5D577500FE7008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AD3E362F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AD3E372F5D577500FE7008 /* Debug */,
+				83AD3E382F5D577500FE7008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AD3E392F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AD3E3A2F5D577500FE7008 /* Debug */,
+				83AD3E3B2F5D577500FE7008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AD3E3C2F5D577500FE7008 /* Build configuration list for PBXNativeTarget "LunarLanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AD3E3D2F5D577500FE7008 /* Debug */,
+				83AD3E3E2F5D577500FE7008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AF06302F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AF06312F76CFFB00113F59 /* Debug */,
+				83AF06322F76CFFB00113F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AF06332F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AF06342F76CFFB00113F59 /* Debug */,
+				83AF06352F76CFFB00113F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AF06362F76CFFB00113F59 /* Build configuration list for PBXNativeTarget "LunarLanderiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AF06372F76CFFB00113F59 /* Debug */,
+				83AF06382F76CFFB00113F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83AD3E052F5D577400FE7008 /* Project object */;
+}

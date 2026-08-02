@@ -1,0 +1,11 @@
+# Xcode build output
+build/
+DerivedData/
+
+# Xcode per-user workspace settings
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/*/xcdebugger/
+*.xcodeproj/xcuserdata/*/xcschemes/xcschememanagement.plist
+
+# macOS metadata
+.DS_Store
