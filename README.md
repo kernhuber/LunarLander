@@ -129,3 +129,11 @@ Das Repository ist **öffentlich und lesbar**. Du kannst es klonen und lokal
 verändern, aber **nicht** in dieses Original-Repo zurückschreiben. Für eigene
 Änderungen, die du online sichern möchtest, forke das Projekt oder lege ein
 eigenes Repository an.
+
+---
+
+## Lizenz
+
+Veröffentlicht unter der **MIT-Lizenz** — frei nutzbar, veränderbar und
+weitergebbar, solange der Copyright-Hinweis erhalten bleibt. Bereitgestellt
+„as is", ohne Gewährleistung und Haftung. Details siehe [`LICENSE`](LICENSE).
