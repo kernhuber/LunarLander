@@ -9,6 +9,11 @@ umherfliegender Objekte und knapper Ressourcen.
 Dieses Repository dient als **Trainingsmaterial**. Du darfst den Code
 herunterladen, ausführen, untersuchen und lokal beliebig verändern.
 
+> 🌐 **Web-Version (in Arbeit):** Im weiteren Verlauf des Trainings wurde aus
+> der Spezifikation [`GAME_SPEC.md`](GAME_SPEC.md) von einer anderen KI eine in
+> **JavaScript** geschriebene, im Browser lauffähige Portierung erstellt:
+> <https://turbonerd.org/lunarlander/> (noch unfertig).
+
 ---
 
 ## Was dieses Spiel ausmacht

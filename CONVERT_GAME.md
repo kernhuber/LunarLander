@@ -15,3 +15,6 @@ Auch wenn die Beschreibung selbst keine Swift-Code enthalten soll, darf sie
 
 # Erstellung der Beschreibung
 Die Beschreibung soll in einer .md-Datei gespeichert werden. Bei der Erstellung darfst du auf alle Dateien und Artefakte, insbesondere die .claude-Dateien zugreifen.
+
+# Ergebnis
+Das Resultat dieser Aufgabe ist [`GAME_SPEC.md`](GAME_SPEC.md). Auf dieser Grundlage hat im weiteren Verlauf des Trainings eine andere KI eine in JavaScript geschriebene, im Browser lauffähige Portierung erstellt (noch in Arbeit): <https://turbonerd.org/lunarlander/>.

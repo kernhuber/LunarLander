@@ -2,6 +2,8 @@
 
 > Dieses Buch begleitet den Quellcode des Projekts `LunarLander` in diesem Repository. Es richtet sich an einen erfahrenen Informatiker mit Vorkenntnissen in C/C++/Java/Python, Assembler, Game-Architektur und 3D/Grafik. Swift selbst wird deshalb mehr Raum als alles andere bekommen — die Konzepte rund um Spiele- und Grafikprogrammierung werden zwar präsentiert, aber nicht von Null aufgebaut.
 
+> 🌐 Ergänzend gibt es eine aus [`GAME_SPEC.md`](GAME_SPEC.md) abgeleitete **JavaScript-Portierung** (im Browser lauffähig, noch in Arbeit): <https://turbonerd.org/lunarlander/>.
+
 ---
 
 ## Inhaltsverzeichnis

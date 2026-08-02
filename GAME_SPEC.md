@@ -2,6 +2,8 @@
 
 Diese Datei beschreibt das Spiel **Lunar Lander** so vollständig, dass eine KI oder ein Entwickler es in einer beliebigen Programmiersprache (z. B. C++/DirectX, C#/MonoGame, Java/Kotlin auf Android, JavaScript/WebGL, Python) nachbauen kann, ohne den Swift-Code zu übersetzen. Sie nennt alle Spielregeln, alle Formeln und alle externen Dateien.
 
+> 🌐 Eine aus dieser Beschreibung abgeleitete **JavaScript-Portierung** (im Browser lauffähig, noch in Arbeit) findet sich unter <https://turbonerd.org/lunarlander/>.
+
 Die Beschreibung ist hierarchisch aufgebaut:
 
 1. Sinn des Spiels

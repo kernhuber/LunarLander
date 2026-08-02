@@ -2,6 +2,8 @@
 
 A 2D Lunar Lander arcade game written in Swift with a custom Metal renderer. Ships on the App Store for iOS/iPadOS and runs locally on macOS.
 
+> Web port (WIP): a JavaScript/browser version derived from `GAME_SPEC.md` during the training lives at <https://turbonerd.org/lunarlander/>.
+
 ## Targets and platforms
 
 Two app targets share the same source files:
