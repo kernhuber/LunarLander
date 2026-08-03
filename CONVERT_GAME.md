@@ -3,7 +3,9 @@ In diesem Verzeichnis findest Du ein XCode-Projekt in Swift und Metal, welches e
 Die Beschreibung soll keine Details in Swift enthalten. Sie soll einerseits so abstrakt sein, dass die KI das Spiel in einer anderen Programmiersprache etwa für Windows oder Android implementieren könnte
 
 # Details
-Die Details soll aber Architekturentscheidungen enthalten: so gibt es eine zentrale Stelle, an der Konfigurationsvariablen gespeichert werden. Die Beschreibung soll auch alle relevanten Formeln enthalten, die im Spiel zum Tragen kommen, um Objekte zu bewegen.  Die Beschreibung darf externe Elemente wie Grafik- oder Sound-Dateien explizit erwähnen. Eine KI, die das Spiel anhand dieser Beschreibung nachbaut, soll die Dateien auch verwenden.  # Grafik
+Die Details soll aber Architekturentscheidungen enthalten: so gibt es eine zentrale Stelle, an der Konfigurationsvariablen gespeichert werden. Die Beschreibung soll auch alle relevanten Formeln enthalten, die im Spiel zum Tragen kommen, um Objekte zu bewegen.  Die Beschreibung darf externe Elemente wie Grafik- oder Sound-Dateien explizit erwähnen. Eine KI, die das Spiel anhand dieser Beschreibung nachbaut, soll die Dateien auch verwenden.
+
+# Grafik
 Die Beschreibung soll so detailliert sein, dass auch der verwendete Vektor-Zeichensatz zum Einsatz kommt. Ausserdem sollen die Metal-Details so genau beschrieben werden, dass eine KI sie etwa für DirectX, OpenGL oder andere Frameworks nachbauen kann.
 
 # Referenzen
